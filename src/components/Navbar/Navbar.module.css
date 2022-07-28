@@ -3,3 +3,6 @@
     background-color: gold;
     font-size: larger;
 }
+.item.active {
+    color: blue;
+}
