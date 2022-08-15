@@ -16,7 +16,7 @@
 
 .app-wrapper-content {
   grid-area: c;
-  background-color: fuchsia;
+  background-color: rgb(220, 220, 220);;
 }
 
 .app-wrapper-content img {

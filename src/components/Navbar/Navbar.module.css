@@ -1,11 +1,10 @@
 .navbar {
     grid-area: n;
-    background-color: gold;
+    background-color: rgb(220, 220, 220);
     font-size: larger;
     padding: 20px;
 }
 .item {
-    color: white;
     text-decoration: none;
 }
 .item.active {
