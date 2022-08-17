@@ -7,6 +7,6 @@
 .item {
     text-decoration: none;
 }
-.item.active {
-    color: green;
+.active {
+    color: gold;
 }
