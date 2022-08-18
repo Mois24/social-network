@@ -5,7 +5,7 @@ const Post = (props) => {
   return (
     <div className={classes.item}>
       <img src="https://thumbs.dreamstime.com/b/male-avatar-icon-flat-style-male-user-icon-cartoon-man-avatar-hipster-vector-stock-91462914.jpg"></img>
-      {props.text}
+      {props.message}
       <div>
         <span>like</span>{props.likesCount}
       </div>
