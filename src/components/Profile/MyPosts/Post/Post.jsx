@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "./Post.module.css";
+import avatar from "./images/hipster.jpg";
 
 const Post = (props) => {
   return (
     <div className={classes.item}>
-      <img src="https://thumbs.dreamstime.com/b/male-avatar-icon-flat-style-male-user-icon-cartoon-man-avatar-hipster-vector-stock-91462914.jpg"></img>
+      <img src={avatar}></img>
       {props.message}
       <div>
         <span>like</span>{props.likesCount}
