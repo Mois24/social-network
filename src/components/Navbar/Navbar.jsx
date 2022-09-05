@@ -23,9 +23,10 @@ const Navbar = (props) => {
       </div>
       <div>
         <NavLink to="/friends" className={ navData => navData.isActive ? classes.active : classes.item }>Friends</NavLink>
-        <div>
+        <div className={classes.container}>
           {namesElements}
         </div>
+        
       </div>
     </nav>
   );
